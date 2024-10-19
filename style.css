@@ -12,6 +12,9 @@
     height: auto;
     background-color: rgba(247, 243, 243, 0.308);
 }
+.navbar{
+    display: none;
+}
 
 .box-navbar{
     width: 100%;
@@ -389,6 +392,9 @@
 }
 
 
+/* responsive */
+
+
 
 
 @media(max-width: 480px) {
@@ -405,6 +411,21 @@
         width: 100%;
         height: auto;
         
+    }
+    .navbar{
+        display: inline;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+
+    }
+    .navbar a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
     }
 
     .box-navbar{
